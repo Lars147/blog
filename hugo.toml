@@ -1,7 +1,23 @@
 baseURL = 'https://lars147.github.io/blog/'
-languageCode = 'en-us'
-title = 'My Blog'
+title = 'Cooking Code'
 theme = 'PaperMod'
+defaultContentLanguage = 'en'
+
+[languages]
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    weight = 1
+    contentDir = 'content/en'
+    [languages.en.params]
+      subtitle = ''
+  [languages.de]
+    languageCode = 'de-DE'
+    languageName = 'Deutsch'
+    weight = 2
+    contentDir = 'content/de'
+    [languages.de.params]
+      subtitle = ''
 
 [params]
   defaultTheme = "auto"
